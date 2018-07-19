@@ -15,11 +15,10 @@ Maven:
 </dependency>
 
 ## 更新
-* 2018-07-19 控件发布
+* 2018-07-19 首次提交
 
 ## 关于我
 * **Email**: <wtf55@vip.qq.com>  
-
 ## License
 ``` 
  Copyright 2018, walten       
