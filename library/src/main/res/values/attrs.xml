@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="arrow_icon_up" format="reference"/>
+    <attr name="arrow_icon_down" format="reference"/>
+    <attr name="menu_text" format="string"/>
+    <attr name="menu_text_size" format="dimension"/>
+    <attr name="menu_text_color" format="color"/>
+    <attr name="focus_color" format="color"/>
+
+    <declare-styleable name="XDropDownButton">
+        <attr name="arrow_icon_up"/>
+        <attr name="arrow_icon_down"/>
+        <attr name="menu_text"/>
+        <attr name="menu_text_size"/>
+        <attr name="menu_text_color"/>
+        <attr name="focus_color"/>
+    </declare-styleable>
+
+    <attr name="height_ratio" format="reference|float" />
+    <attr name="height_dimen" format="reference|dimension" />
+    <declare-styleable name="XMaxHeightLayout">
+        <attr name="height_ratio" />
+        <attr name="height_dimen" />
+    </declare-styleable>
+
+    <attr name="cutting_line_color" format="color"/>
+    <attr name="bottom_line" format="color"/>
+    <declare-styleable name="XDropDownButtonGroup">
+    <attr name="cutting_line_color"/>
+    <attr name="bottom_line"/>
+    </declare-styleable>
+</resources>

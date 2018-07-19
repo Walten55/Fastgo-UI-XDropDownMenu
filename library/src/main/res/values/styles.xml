@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Drop_Down_Menu_Anim_Style">
+        <item name="android:windowEnterAnimation">@anim/drop_down_menu_top_in</item>
+        <item name="android:windowExitAnimation">@anim/drop_down_menu_top_out</item>
+    </style>
+
+</resources>

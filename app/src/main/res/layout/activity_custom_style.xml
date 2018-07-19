@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.walten.fastgo.ui.DropDownMenu.XDropDownMenu
+        android:id="@+id/drop_down_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <me.walten.fastgo.ui.DropDownMenu.XDropDownButtonGroup
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/grid_45"
+            android:background="#ffffff"
+            app:bottom_line="#14a420"
+            app:cutting_line_color="#F40101">
+
+            <me.walten.fastgo.ui.DropDownMenu.XDropDownButton
+                android:id="@+id/drop_down_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:focus_color="@color/colorAccent"
+                app:menu_text="城市"
+                app:menu_text_color="#000000"
+                app:menu_text_size="@dimen/grid_12" />
+
+            <me.walten.fastgo.ui.DropDownMenu.XDropDownButton
+                android:id="@+id/drop_down_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:focus_color="@color/colorAccent"
+                app:menu_text="省市区"
+                app:menu_text_color="#000000"
+                app:menu_text_size="@dimen/grid_12" />
+
+
+            <me.walten.fastgo.ui.DropDownMenu.XDropDownButton
+                android:id="@+id/drop_down_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:focus_color="@color/colorAccent"
+                app:menu_text="省市"
+                app:menu_text_color="#000000"
+                app:menu_text_size="@dimen/grid_12" />
+
+
+            <me.walten.fastgo.ui.DropDownMenu.XDropDownButton
+                android:id="@+id/drop_down_btn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:focus_color="@color/colorAccent"
+                app:menu_text="自定义布局很长很长很长很长"
+                app:menu_text_color="#000000"
+                app:menu_text_size="@dimen/grid_12" />
+
+        </me.walten.fastgo.ui.DropDownMenu.XDropDownButtonGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="内容区域" />
+
+    </me.walten.fastgo.ui.DropDownMenu.XDropDownMenu>
+
+</FrameLayout>
